@@ -1,7 +1,18 @@
 ---
 layout: default
+title: Home
 ---
 
-# About
+# Welcome to My Blog
 
-Hello there, this is just a test site where I'm mostly going to put random stuff since I have almost zero knowledge on web design.
+Hello! This is my blog where I share my thoughts and experiences.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+

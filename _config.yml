@@ -1,3 +1,10 @@
+title: My Blog
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to my blog where I share my thoughts and experiences.
+author: Prithuj_Sarkar
+email: prithujsarkar2005@gmai.com
 theme: jekyll-theme-cayman
-title: My Awesome Site
-description: Welcome to my awesome site!
+# The following is for GitHub Pages
+url: "https://<username>.github.io"
+baseurl: "/"
+
